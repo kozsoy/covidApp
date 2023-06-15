@@ -40,13 +40,19 @@ function App() {
                 </tr>
               </thead>
               <tbody>
-                <tr class="fw-semibold text-center ">
+                <tr class="fw-semibold text-center">
                   <th scope="row">1</th>
                   <td>
-                    {veri === undefined ? "Veri Bekleniyor." : veri.totalTests}
+                    {veri === undefined ? "Veri Bekleniyor." : veri.totalTests}{" "}
                   </td>
-                  <td>{veri === undefined ? "Veri Bekleniyor." : veri.totalPatients}</td>
-                  <td>{veri === undefined ? "Veri Bekleniyor." : veri.totalDeaths}</td>
+                  <td>
+                    {veri === undefined
+                      ? "Veri Bekleniyor."
+                      : veri.totalPatients}
+                  </td>
+                  <td>
+                    {veri === undefined ? "Veri Bekleniyor." : veri.totalDeaths}
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -58,3 +64,4 @@ function App() {
 }
 
 export default App;
+
