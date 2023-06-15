@@ -5,7 +5,7 @@ function App() {
         <div className="row">
           <div className="col-md-8 mx-auto mt-4">
             <h2 className="text-white text-center display-3 fw-semibold">
-              TÜRKİYE COVİD-19 ARAMA MOTORU sdadadad
+              TÜRKİYE COVİD-19 ARAMA MOTORU
             </h2>
 
             <input
